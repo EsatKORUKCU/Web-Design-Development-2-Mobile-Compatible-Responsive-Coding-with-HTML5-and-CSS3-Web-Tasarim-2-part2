@@ -1,0 +1,249 @@
+html{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: beige;
+    font-family: "Poppins", sans-serif; /* Font Özelleştirme*/
+}
+header{
+    margin: -8px;
+}
+.container01{
+    background-color: #1F1F2E;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+}
+.container01_Ic{
+    max-width: 1200px; /*div genişliği ayarla*/
+    width: 100%; /*genişliğin tamamına uygula*/
+    display: flex;
+    margin: 0 auto; /*sayfanın ortasına getirir*/
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container01_Sol{
+    justify-content: start;
+    max-width: 600px;
+    width: 80%;
+}
+.container01_Sol a{
+    color: white;
+    text-decoration: none;
+}
+.container01_Sag{
+    justify-content: flex-end;
+    text-align: right;
+    max-width: 600px;
+    width: 30%;
+}
+.container01_Sag i{
+    letter-spacing: 5px;
+}
+nav{
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    height: 84px;
+    margin: 0 auto;
+    line-height: 84px;
+}
+.logo, .menu, .girisyap{ padding: 0 10px; }
+.logo a{
+    display: block;
+    color: #ff4800;
+    font-size: 40px;
+    font-weight: bold; 
+    text-decoration: none;
+}
+.menu a{
+    padding: 0 10px;
+    width: 100px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    display:inline-flex;
+    justify-content: center;
+}
+.menu a:hover, .active{
+    background-color: #ff4800;
+}
+.resim{ height: 200px; width: 100%; }
+.satirBosluk{
+    padding: 20px 0;
+    margin: 20px 0;
+}
+.num{
+    font-family: "Arial Black";
+    color: #ff4800;
+    font-size: 30px;
+    text-align: center;
+}
+.num h5{
+    font-family: "Calibri";
+    color: #1F1F2E;
+    font-size: 16px;
+}
+.form{
+    background-color: #ff4800;
+    margin: -20px 0;
+    padding: 50px;
+    text-align: center;
+}
+
+.form input,  #seciniz{
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 5px;
+    outline: transparent;
+    border-radius: 5px;
+    border: 0.1px solid transparent;
+    width: 100%;
+}
+#seciniz option{
+    background-color:antiquewhite;
+}
+
+.baslik{
+    margin-top: 10px;
+    font-family: Arial;
+    text-align: center;
+    font-weight:bold;
+}
+aside, .sonBlog{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tasimaTakimi{
+    border-radius: 5px;
+    border: 0.5px solid black;
+    width: 235px;
+    padding: 7px;
+    margin: 20px;
+    background-color: snow;
+}
+.tasimaTakimi img{ width: 100%; }
+
+
+
+.baslikBlog{
+    margin-top: 50px;
+    padding: 50px;
+    font-style: italic !important;
+    text-align: center;
+}
+.baslikBlog:first-child{
+    line-height: 50px !important;
+}
+.sonBlog{
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.blokGonderi{
+    
+    width: 50%;
+    padding: 10px;
+}
+.blokGonderi p{
+   padding-top: 30px;
+}
+.blokGonderi img{
+    width: 100%;
+}
+
+.tarih{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #ff4800;
+    text-align: center;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 320px;
+}
+
+@media all and (max-width:990px){
+    .girisyap{
+        position: absolute;
+        margin-left: 70%;
+        height: 10px;
+    }
+    .tarih{
+        margin-left: 250px;
+    }
+}
+ 
+.containerfooter{
+    background-color: #1F1F2E;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    
+    color: white;
+}
+.footerUst{
+    margin: 48px 33px;
+    padding: 20px;
+    width: 20%;
+}
+
+.footerUst ol{
+    margin: 0;
+    padding: 0;
+}
+.footerUst ol li{
+    list-style: none;
+    line-height: 30px;
+}
+.liste{ 
+    
+    display: flex;
+    flex-direction: row;
+
+}
+.liste li  {
+    margin-top: 30px;
+    width: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: all .5s ease-out;
+}
+ .liste li:hover{
+    color: white;
+    cursor: pointer;
+ }
+
+@media all and (max-width:768px){
+    .tasimaTakimi, .blokGonderi{
+        width: 100%;
+    }
+
+    .blokGonderi p{
+        padding: 10px;
+        font-size: 3vmin;
+    }
+    .sonBlog{
+        flex-direction: column;
+    }
+    .tarih{
+        margin-left: 350px;
+    }
+}
