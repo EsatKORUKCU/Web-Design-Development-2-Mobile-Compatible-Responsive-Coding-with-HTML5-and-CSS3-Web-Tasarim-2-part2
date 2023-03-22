@@ -1,2 +1,3 @@
-# Web-Tasar-m-Geli-tirme-2-HTML5-ve-CSS3-le-Mobil-Uyumlu-Responsive-Kodlama-dersinde-yap-lanlar2
-Web Tasarım Geliştirme 2 (HTML5 ve CSS3 İle Mobil Uyumlu-Responsive Kodlama)dersinde yapılanlar çalışmalar2
+# Web-Design-Development-2-Mobile-Compatible-Responsive-Coding-with-HTML5-and-CSS3-Web-Tasarim-2-part2
+Studies done in Web Design Development 2 (Mobile Compatible-Responsive Coding with HTML5 and CSS3) course --- Web Tasarım Geliştirme 2 (Mobil Uyumlu-HTML5 ve CSS3 ile Duyarlı Kodlama) kursunda yapılan çalışmalar
+
